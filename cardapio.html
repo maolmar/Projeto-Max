@@ -1,0 +1,114 @@
+<html> 
+
+	<head>	
+		<title>Cardapio</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+
+	<header>
+		<img src="logo.jpg">
+		<div id="menu">
+		<a href="index.html">Home</a>
+		<a href="cardapio.html">Cardapio</a>
+		<a href="servicos.html">Serviços</a> 
+		</div>
+	</header>  
+		
+		
+	<div id="principal_cardapio">
+		<h2>Cardápio</h2>
+		<form	action="cardapio.php"
+				method="post"
+				enctype="multipart/form-data">
+
+
+			<br><br><label id="Refeicoes">Refeições:
+			<select name="ref" id="ref">
+				<option value="">Escolha Abaixo</option>
+				<option value="File de frango">File de frango</option>
+				<option value="Contra file">Contra filé</option>
+				<option value="Bife a parmegiana">Bife à pamergiana</option>
+				<option value="Picadinho">Picadinho</option>
+				<option value="Bife a rolê">Bife a rolê</option>
+				<option value="Macarronada com frango">Macarronada com frango</option>
+				<option value="Picanha">Picanha</option>
+				<option value="Filé Mignon">Filé Mignon</option>
+				<option value="Ovo frito">Ovo frito</option>
+				<option value="A moda da casa">A moda da casa</option>
+			</select>
+			</label><br><br>
+
+			<label id="Acompanhamentos">Acompanhamentos:			
+			<select name="acp" id="acp">
+				<option value="">Escolha Abaixo</option>
+				<option value="Arroz,feijão">Arroz,feijão</option>
+				<option value="Batata frita,salada">Batata frita,salada</option>
+				<option value="Batata holandesa">Batata holandesa</option>
+				<option value="farofa,vinagrete">farofa, vinagrete</option>
+			</select>
+			</label><br><br>
+
+			<label id="porcoes">Porções:			
+			<input type="number" name="porcoes" id="porcoes">
+			</label><br><br>
+
+			<label id="bebidas">Bebidas:			
+			<select name="bebidas" id="bebidas">
+				<option value="">Escolha Abaixo</option>
+				<option value="Coca lata">Coca lata</option>
+				<option value="Guarana antartida lata"> Guarana antartida lata</option>
+				<option value="Fanta laranja lata">Fanta lata</option>
+				<option value="Coca cola 2 lts">Coca cola 2 lts</option>
+				<option value="Guarana antartida 2 lts">Guarana antartida 2 lts</option>
+				<option value="Fanta laranja 2 lts">Fanta laranja 2 lts</option>
+				<option value="Suco Laranja">Suco Laranja</option>
+				<option value="Suco Maracuja">Suco Maracuja</option>
+				<option value="Suco Limão">Suco Limão</option>
+				<option value="Suco Limonada Suiça">Suco Limonada Suiça</option>
+			</select>
+			</label><br><br>
+
+			<label id="quantidadesbebidas">Quantidades de bebidas:		
+			<input type="number" name="quantbebidas" id="quantbebidas"><br>
+			</label><br><br>
+							
+				<label id="sobremesa">Sobremesas:
+					<select name="sobremesa" id="sobremesa" >
+						<option value="">Escolha Abaixo</option>
+						<option value="Petit Gateu"> Petit Gateu</option>
+						<option value="Sorvete com 2 bolas"> Sorvete com 2 bolas</option>
+						<option value="Mousse de maracuja">mousse de maracuja </option>
+						<option value="Banana Split">Banana Split</option>
+						<option value="Bolos Fatias(chocolate, cenoura cobertura chocolate, laranja, coco e maracuja">Bolos Fatias(chocolate, cenoura cobertura chocolate, laranja, coco e maracuja</option>
+						<option value="Açai na tigela">Açai na tigela</option>
+						<option value="Pudim">Pudim</option>
+						<option value="Petit Gateu"> Petit Gateu</option>
+					</select> <br>
+				</label><br>
+
+			<label id="quantidadesobremesas">
+			Quantidades de sobremesas:
+			<input type="number" name="quantsobremesas" id="quantsobremesas"> <br>
+			</label><br><br>
+			
+		<label id="coberturas">
+			Coberturas: 
+			<select name="coberturas" id="coberturas" >
+				<option value="">Escolha Abaixo</option>
+				<option value="Chocolate"> Chocolate</option>
+				<option value="Baunilha"> Baunilha</option>
+				<option value="Morango"> Morango</option>
+			</select> <br><br>
+		</label>
+			<input id="Enviar2" type="submit" class="Enviar2" name="Enviar2" value="Enviar">
+					
+		</form>
+
+	</div>
+
+		<footer>O prazer dos banquetes não está na abundância dos pratos e, sim, na reunião dos amigos e na conversação.</footer>
+	</body>
+	
+</html>

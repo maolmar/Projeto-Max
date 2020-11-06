@@ -1,0 +1,123 @@
+<html> 
+
+	<head>	
+		<title>String é ok</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	
+	<body>
+
+	<header>
+		<img src="logo.jpg">
+		<div id="menu">
+		<a href="index.html">Home</a>
+		<a href="cardapio.html">Cardapio</a>
+		<a href="servicos.html">Serviços</a> 
+		</div>
+	</header> 
+		<h1>Escolha o serviço desejado!! </h1>
+
+	<div id="principal_servicos">
+		<form	action="servicos.php"
+				method="post"
+				enctype="multipart/form-data">
+
+		<div id="Confeitaria">
+			<br><p><h2>Confeitaria</h2></p>
+		<label id="produtos">
+			Produtos:
+			<select name="produtos" id="produtos">
+				<option value="">Escolha Abaixo</option>
+				<option value="bolos">Bolos</option>
+				<option value="doces">Doces</option>
+				<option value="tortas">Tortas</option>
+				<option value="salgados">Salgados</option>
+			</select><br><br>
+		</label>
+
+		<label id="Tipos">Tipos:
+			<select name="tipos" id="tipos">
+				<option value="">Escolha Abaixo</option>
+				<option value="floresta Negra">Floresta Negra</option>
+				<option value="brigadeiro">Brigadeiro</option>
+				<option value="limão">Limão</option>
+				<option value="coxinha">Coxinha</option>
+				<option value="risole">Risole</option>
+				<option value="bolinhas de Queijo">Bolinhas de Queijo</option>
+				<option value="kibe">Kibe</option>	
+			</select><br><br>
+		</label>
+
+		<label id="Quantidade">Quantidade:
+			<input type="number" name="quantidade" id="quantidade"
+			placeholder=""><br><br>
+		</label>
+
+			
+			<label id="Kit">Kit festas:
+				
+				<input type="radio" name="kf" id="kf"
+				  value="S" >Sim
+				<input type="radio" name="kf" id="kf"
+				  value="N">Nao<br><br><br>
+			</label>
+
+		<label id="Encomendas">Encomendas:
+			
+				<input type="radio" name="encomendas" id="encomendas"
+				  value="S" >Sim
+				<input type="radio" name="encomendas" id="encomendas"
+				  value="N">Nao<br><br>
+		</label>
+
+		</div>
+
+		<div id="Pizzaria">
+
+			<br><p><h2>Pizzaria</h2></p>
+			
+			<label id="Sabores">Sabores:
+			<select name="sabores" id="sabores">
+				<option value="">Escolha Abaixo</option>
+				<option value="portuguesa">Portuguesa</option>
+				<option value="mussarela">Mussarela</option>
+				<option value="a moda da casa">À moda da casa</option>
+				<option value="camarão">Camarão</option>
+				<option value="vegetariana">Vegetariana</option>
+				<option value="quatro Queijos">Quatro Queijos</option>
+				<option value="carne Seca">Carne Seca</option>
+			</select><br><br><br>
+			</label>
+
+			<label id="quantidadepizzas">
+			Quantidade de pizzas:
+			<input type="number" name="quantidadepizzas" id="quantidadepizzas" rows="5"  cols="100" 
+			><br><br><br>
+			</label>
+
+			<label id="dataentrega">
+			<p>Data de Entrega:
+			<input type="date" name="dataentrega" id="dataentrega"
+				size="50" maxlength="12"
+				placeholder="Previsão para entrega aaaa/mm/dd"> <br><br><br>
+				
+			</label>
+			
+			
+					
+		</div>
+
+			<input id="Enviar" type="submit" class="Enviar" name="Enviar" value="Enviar">
+			<input id="Limpar" type="reset"  class="Limpar" name="Limpar" value="Limpar Dados">
+
+		</form>
+
+		</div>
+
+
+		<footer>O prazer dos banquetes não está na abundância dos pratos e, sim, na reunião dos amigos e na conversação.</footer>
+	
+	</body>
+	
+</html>

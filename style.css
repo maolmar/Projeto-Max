@@ -1,0 +1,411 @@
+/* Index */
+
+body{
+	background-color:black;
+
+}
+
+header{
+	background-color: white;
+	height: 90px;
+}
+
+#div_principal{
+	background-color: #35b8b0;
+	height: 40px;
+	padding: 30px;
+	background-image: url('fundo.jpg');
+	background-size: 100%;
+	min-height: 110%;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+footer{
+	background-color: #35b8b0;
+	height: 40px;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	clear: both;
+
+	
+}
+
+.container{
+	width: auto;
+	margin: auto;
+	background-color: white;
+	}
+
+#menu{
+	margin-top: 30px;
+	float: right;
+}
+
+#menu a{
+	padding: 40px 30px;
+	text-decoration: none;
+	color: #111;
+	text-shadow: 1px 1px #1111;
+}
+
+#menu a:hover{
+	background-color: #111;
+	color: #35b8b0;
+	
+}
+
+
+/* serviços */
+
+
+h1{
+	background-color: white;
+	text-align: center;
+	color: black;
+	height: 85px;
+	width: auto;
+	margin: auto;
+
+}
+
+#principal_servicos{
+	background-color: white;
+	text-align: center;
+	margin-top: auto;
+	min-height: 700px;
+
+}
+
+#Confeitaria{
+	background-color: white;
+	min-height: 400px;
+	width: 50%;
+	float: left;
+	margin-top: auto;
+
+	
+}
+
+#pizzaria{
+	background-color: white;
+	min-height: 450px;
+	width: 50%;
+	float: right;
+	margin-top: auto;
+
+
+}
+
+/* Confeitaria */
+h2{
+	font-family: arial;
+
+}
+
+#Confeitaria{
+	background-image: url('');
+	background-size: 100%;
+	min-height: 99%;
+	text-align: center;
+}
+#produtos{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 450px;
+bottom: 81.22%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);}
+
+#Tipos{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 450px;
+bottom: 81.22%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 19px;
+}
+
+#Quantidade{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 450px;
+bottom: 81.22%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);
+}
+
+#Kit{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 500px;
+bottom: 100%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: Star Wars;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);
+}
+
+#Encomendas{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 200px;
+bottom: 100%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: Star Wars;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);
+}
+
+/* PIZZARIA */
+#Pizzaria{
+	background-image: url('');
+	background-size: 100%;
+	min-height: 99%;
+	text-align: center;
+
+}
+
+#Sabores{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 200px;
+bottom: 100%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: Star Wars;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);
+}	
+
+#quantidadepizzas{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 200px;
+bottom: 100%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: Star Wars;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);
+}
+
+#dataentrega{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 200px;
+bottom: 100%;
+background: #FFFFFF;
+border-radius: 15px;
+font-family: Star Wars;
+font-size: 19px;
+box-shadow: inset 0px 4.37949px
+ 4.37949px rgba(0, 0, 0, 0.25);
+}
+
+#Enviar {
+    
+position: initial;
+left: 40.71%;
+right: 39.86%
+top: 50%;
+height: 55px;
+bottom: 1.78%;
+width: 200px;
+font-family: tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 36px;
+text-transform: uppercase;
+background: #35b8b0;
+border-radius: 20px;
+}
+
+#Limpar {
+position: initial;
+left: 40.71%;
+right: 39.86%
+top: 50%;
+height: 55px;
+bottom: 110%;
+width: 200px;
+font-family: tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 36px;
+text-transform: uppercase;
+background: #35b8b0;
+border-radius: 20px;
+}
+
+/* Cardapio */
+
+
+
+
+h2{
+	font-size: 40px;
+}
+#principal_cardapio{
+	background-color: #35b8b0;
+	height: 40px;
+	padding: 10px;
+	background-image: url('fundo2.png');
+	background-size: 100%;
+	min-height: 99%;
+	text-align: center;
+}
+
+#Refeicoes{
+position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 250px;
+bottom: 100%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px;
+
+}
+
+#Acompanhamentos{
+position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 250px;
+bottom: 81.22%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px
+}
+
+#porcoes{
+position: all;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 300px;
+bottom: 81.22%;
+border-radius: 50px;
+font-family: tahoma;
+font-size: 20px;
+}
+
+#bebidas{
+position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 250px;
+bottom: 81.22%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px;
+}
+
+#quantidadesbebidas{
+position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 250px;
+bottom: 81.22%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px;
+}
+
+#sobremesa{
+	
+position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 250px;
+bottom: 81.22%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px;
+}
+
+#quantidadesobremesas{
+position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 440px;
+bottom: 81.22%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px;
+}
+
+#Enviar2 {
+    
+position: initial;
+left: 40.71%;
+right: 39.86%
+top: 50%;
+height: 55px;
+bottom: 1.78%;
+width: 200px;
+font-family: tahoma;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 36px;
+text-transform: uppercase;
+border-radius: 20px;
+}
+
+#coberturas{
+	position: inherit;
+left: 6.96%;
+right: 52.16%;
+top: 14.83%;
+width: 230px;
+bottom: 81.22%;
+border-radius: 15px;
+font-family: tahoma;
+font-size: 20px;
+}
